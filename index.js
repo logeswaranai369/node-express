@@ -22,7 +22,7 @@ app.get("/", (_req, res) => {
 </style></head>
 <body>
   <span class="badge">✓ Built with paketo-buildpacks (Node.js)</span>
-  <h1>Hello from Contixo-Trigger check!</h1>
+  <h1>Hello from Contixo-page untouch!</h1>
   <p>This is a Node.js Express app deployed via the Contixo dynamic-site wizard.</p>
   <p>The repo had a <code>package.json</code> → detection matched <code>nodejs</code> → buildpacks pipeline ran → image landed in Harbor → kubernetes pod is now serving you this page on port ${port}.</p>
   <div class="meta">
